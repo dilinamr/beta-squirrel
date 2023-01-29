@@ -1,104 +1,94 @@
-*{
-    margin: 0px;
-    box-sizing: border-box;
-    padding: 0px;
-    font-family: 'Poppins', sans-serif;;
-    
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
 }
-body{
-    background-color: rgb(226, 239, 251);
-   
+body {
+  background-color: rgb(52, 31, 32);
 }
-nav{
-    height: 70px;
-    width: 100%;
-    background-color: rgb(48, 48, 53);
-    padding: 0 70px;
-    line-height: 75px;
+nav {
+  height: 70px;
+  width: 100%;
+  background-color: rgb(84, 53, 97);
+  padding: 0 70px;
+  line-height: 75px;
 }
-nav p{
-   color: white;
+nav p {
+  color: white;
 }
 
-.logo{
-    font-size: 30px;
-    font-weight: bold;
-    letter-spacing: 1.5px;
-    
-    display: inline-block;
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
 
+  display: inline-block;
 }
-nav ul{
-    float: right;
+nav ul {
+  float: right;
 }
-nav ul li{
-    display: inline-block;
-    list-style: none;
+nav ul li {
+  display: inline-block;
+  list-style: none;
 }
-nav ul li a{
-    text-decoration: none;
-    font-size: 18px;
-    padding: 0 30px;
-    color: white;
+nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 0 30px;
+  color: white;
 }
-nav ul li a:hover{
-    color: green;
+nav ul li a:hover {
+  color: green;
 }
-img{
-    margin-top: 5px;
-    width: 60px;
-    height: 60px;
-    position: absolute;
+img {
+  margin-top: 5px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
 }
-.brand{
-margin-left: 70px;
-
+.brand {
+  margin-left: 70px;
 }
 
-h2{
-    padding: 10px;
+h2 {
+  padding: 10px;
 }
-.sec-one h2{
-    text-decoration: underline;
+.sec-one h2 {
+  text-decoration: underline;
 }
-.sec-p{
-    line-height: 25px;
-    padding: 10px;
-    text-align: justify;
+.sec-p {
+  line-height: 25px;
+  padding: 10px;
+  text-align: justify;
 }
-.sec-one{
-    background-color: rgb(204, 216, 242);
-    margin: 20px 0px;
-    border-radius: 5px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-}
-
-.sec-two{
-    background-color: rgb(204, 216, 242);
-    margin-top: 20px;
-    width: 29%;
-    margin-right: 70px;
-    margin-left: 20px;
-    float: left;
-    border-radius: 5px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+.sec-one {
+  background-color: rgb(204, 216, 242);
+  margin: 20px 0px;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
-.sec-three{
-    background-color: rgb(204, 216, 242);
-    margin-top: 20px;
-    margin-right: 20px;
-    width: 29%;
-    display: inline-block;
-    border-radius: 5px;
-    float: right;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+.sec-two {
+  background-color: rgb(204, 216, 242);
+  margin-top: 20px;
+  width: 29%;
+  margin-right: 70px;
+  margin-left: 20px;
+  float: left;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
-.sm-container{
-    background-color: blueviolet;
-    height: 300px;
-   
-}
-.one{
-    overflow: hidden;
+
+.sec-three {
+  background-color: rgb(204, 216, 242);
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 29%;
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
