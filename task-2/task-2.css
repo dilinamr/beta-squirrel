@@ -1,0 +1,84 @@
+body {
+  background-color: rgb(209, 203, 203);
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+#nav-bar {
+  background-color: rgb(108, 32, 179);
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-left img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  align-self: center;
+  margin-left: 20px;
+}
+.nav-left {
+  float: left;
+  display: flex;
+}
+.nav-right {
+  float: right;
+  align-self: center;
+}
+a {
+  color: white;
+  text-decoration: none;
+  padding: 0px 20px;
+  font-size: large;
+}
+h2 {
+  color: white;
+  margin-left: 10px;
+  font-size: larger;
+  align-self: center;
+  letter-spacing: 2px;
+}
+.main-container {
+  height: 300px;
+  margin: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(138, 157, 159);
+}
+.l-box {
+  height: 200px;
+  background-color: aquamarine;
+  width: 25%;
+  align-self: center;
+  margin: auto 20px;
+}
+.r-box {
+  height: 200px;
+  background-color: aquamarine;
+  width: 25%;
+  align-self: center;
+  margin: auto 20px;
+}
+.l-box > h2 {
+  color: black;
+}
+.r-box > h2 {
+  color: black;
+}
+.para {
+  text-align: justify;
+  padding: 0px 10px;
+}
+.frist-container {
+  height: 300px;
+  background-color: rgb(102, 102, 211);
+  margin: 0px 10px;
+  display: flex;
+}
+.frist-sub {
+  height: 260px;
+  background-color: rgb(234, 199, 152);
+  align-self: center;
+  width: 97%;
+  margin: auto;
+  border: 5px solid green;
+}
