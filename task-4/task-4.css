@@ -1,0 +1,237 @@
+body {
+  margin: 0 auto;
+  background-color: #ececec;
+  font-family: sans-serif;
+}
+nav {
+  height: 75px;
+  background-color: #625c5c;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.profile {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  align-self: center;
+}
+.nav-right {
+  align-self: center;
+}
+.nav-left {
+  align-self: center;
+  float: left;
+  display: flex;
+}
+h1 {
+  margin-left: 10px;
+  color: white;
+  font-size: 32px;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+.logo {
+  height: 50px;
+  width: 40px;
+  align-self: center;
+}
+.side-bar {
+  margin-top: 1px;
+  height: 730px;
+  width: 15%;
+  background-color: #625c5c;
+  padding-top: 20px;
+}
+li {
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+ul {
+  padding: 0;
+}
+a {
+  color: white;
+}
+.green-text {
+  text-decoration: none;
+  color: #30b683;
+  font-size: 20px;
+}
+.main {
+  display: flex;
+}
+.right {
+  height: 700px;
+  background-color: #ececec;
+  width: 100%;
+}
+.heading {
+  text-decoration: underline;
+  font-family: sans-serif;
+  padding-left: 10px;
+  padding-top: 16px;
+}
+h3,
+h2 {
+  font-weight: 100;
+  font-size: 20px;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.box-1 {
+  height: 150px;
+  width: 24.5%;
+  background-color: #0ace82;
+  text-align: center;
+  color: white;
+}
+.box-2 {
+  height: 150px;
+  width: 24.5%;
+  background-color: #a259ff;
+  text-align: center;
+  color: white;
+}
+.box-3 {
+  height: 150px;
+  width: 24.5%;
+  background-color: #f34e1e;
+  text-align: center;
+  color: white;
+}
+.box-4 {
+  height: 150px;
+  width: 24.5%;
+  background-color: #19bdfc;
+  text-align: center;
+  color: white;
+}
+.chart {
+  display: flex;
+  padding-top: 130px;
+  padding-left: 66px;
+  justify-content: space-between;
+}
+.chart-1 {
+  height: 200px;
+  width: 200px;
+  background-color: #a259ff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+.chart-in-1 {
+  height: 120px;
+  width: 120px;
+  background-color: #0ace82;
+  border-radius: 50%;
+  align-self: center;
+  text-align: center;
+}
+.chart-text-1 {
+  padding-top: 30px;
+  color: white;
+}
+.chart-2 {
+  height: 200px;
+  width: 200px;
+  background-color: #19bafe;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+.chart-in-2 {
+  height: 180px;
+  width: 180px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  align-self: center;
+  text-align: center;
+}
+.chart-text-2 {
+  padding-top: 60px;
+  color: black;
+}
+.chart-3 {
+  height: 200px;
+  width: 200px;
+  background-color: #ee531a;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+.chart-in-3 {
+  height: 180px;
+  width: 180px;
+  background-color: #ff7261;
+  border-radius: 50%;
+  align-self: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.chart-inn-3 {
+  height: 80px;
+  width: 80px;
+  background-color: #a259ff;
+  border-radius: 50%;
+  align-self: center;
+  text-align: center;
+}
+.chart-text-3 {
+  padding-top: 6px;
+  color: white;
+}
+.graph-bar {
+  height: 200px;
+  width: 254px;
+  background-color: #ececec;
+  display: flex;
+  border-bottom: 10px solid grey;
+  margin-right: 30px;
+}
+.bar-1 {
+  margin-top: 10px;
+  height: 190px;
+  width: 10px;
+  background-color: rgb(9, 207, 130);
+}
+.bar-2 {
+  margin-top: 80px;
+  height: 120px;
+  width: 10px;
+  background-color: rgb(243, 79, 28);
+  margin-left: 20px;
+}
+.bar-3 {
+  margin-top: 50px;
+  height: 150px;
+  width: 10px;
+  background-color: rgb(162, 89, 254);
+  margin-left: 20px;
+}
+.bar-4 {
+  margin-top: 140px;
+  height: 60px;
+  width: 10px;
+  background-color: rgb(27, 187, 249);
+  margin-left: 20px;
+}
+.bar-5 {
+  margin-top: 30px;
+  height: 170px;
+  width: 10px;
+  background-color: rgb(99, 93, 93);
+  margin-left: 20px;
+}
+.bar-6 {
+  margin-top: 170px;
+  height: 30px;
+  width: 10px;
+  background-color: rgb(254, 115, 96);
+  margin-left: 20px;
+}
