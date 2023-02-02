@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(238 245 255);
+  margin: 0%;
+}
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+.box {
+  height: 300px;
+  width: 600px;
+  background-color: rgb(164, 71, 198);
+  border-radius: 6px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.box h1 {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+.a-text {
+  display: flex;
+  align-self: center;
+  margin-top: 15%;
+}
+.a-text a {
+  text-decoration: none;
+  padding: 0px 15px;
+  color: white;
+  font-size: 20px;
+  margin: auto;
+}
+a:hover {
+  background-color: rgb(102 105 151);
+  border-radius: 5px;
+}
