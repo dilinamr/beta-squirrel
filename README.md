@@ -2,6 +2,22 @@
 
 Assignment from betasquirrel
 
+## Linux commands
+
+- `cd` - change current directory. Ex: `cd desktop`, `cd ..`
+- `ls` - List contents of a directory, Ex: `ls -a` lists hidden files as well.
+- `pwd` - Display current working directory path
+- `cat` - Display contents of a file Ex: `cat README.md`
+
+## Git commands
+
+1. `git config` Config git user. EX: `git config --global user.name "dilin"`, `git config user.email "dilinam@gmail.com"`
+2. `git clone` clone a remote git repositery to your local. Ex: `git clone "add user https link or ssh key"`
+3. `git add` Add your file changes to git. Ex: `git add .` : this will add all file to the repo
+   `git add README.md` : this will add the readme file we can specify using the file name
+4. `git commit` commit changes to git. `git commit -m "Initial commit"`
+5. `git push` push your local commits to remote repo Ex: `git push origin main`
+
 ## Task-1
 
 | Requirements              | Output                |
@@ -32,9 +48,9 @@ Assignment from betasquirrel
 - [Tables](https://www.w3schools.com/html/html_tables.asp)
 
 ## Exercise-Quiz
-![screenshot-1](work/Screenshot%20(217).png)
-![screenshot-2](work/Screenshot%20(236).png)
 
+![screenshot-1](<work/Screenshot%20(217).png>)
+![screenshot-2](<work/Screenshot%20(236).png>)
 
 ## Completed tasks
 
