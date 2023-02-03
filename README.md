@@ -2,6 +2,10 @@
 
 Assignment from betasquirrel
 
+##Demo-website
+
+-[Live](https://dilinamr.github.io/beta-squirrel/)
+
 ## Linux commands
 
 - `cd` - change current directory. Ex: `cd desktop`, `cd ..`
