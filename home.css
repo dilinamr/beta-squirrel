@@ -11,7 +11,8 @@ body {
 .box {
   height: 300px;
   width: 600px;
-  background-color: rgb(164, 71, 198);
+  
+  background: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
   border-radius: 6px;
   align-self: center;
 
