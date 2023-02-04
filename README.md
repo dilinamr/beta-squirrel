@@ -50,6 +50,8 @@ Assignment from betasquirrel
 - [Images](https://www.w3schools.com/html/html_images.asp)
 - [Favicon](https://www.w3schools.com/html/html_favicon.asp)
 - [Tables](https://www.w3schools.com/html/html_tables.asp)
+- [classes](https://www.w3schools.com/html/html_classes.asp)
+- [Id](https://www.w3schools.com/html/html_id.asp)
 
 ## Exercise-Quiz
 
