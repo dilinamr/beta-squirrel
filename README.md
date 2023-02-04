@@ -4,7 +4,7 @@ Assignment from betasquirrel
 
 ##Demo-website
 
--[Live](https://dilinamr.github.io/beta-squirrel/)
+- [Live](https://dilinamr.github.io/beta-squirrel/)
 
 ## Linux commands
 
