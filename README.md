@@ -24,11 +24,11 @@ Assignment from betasquirrel
 
 ## Task-1
 
-| Requirements                                    | Output                                            |
-| ----------------------------------------------- | ------------------------------------------------- |
-| ![task-1](requirment%20and%20output/task-1.jpg) | ![1](requirment%20and%20output/task-1-output.png) |
-| ![task-2](requirment%20and%20output/task-2.jpg) | ![2](requirment%20and%20output/task-2-output.png) |
-| ![task-4](requirment%20and%20output/task-4.jpg) | ![4](requirment%20and%20output/task-4-output.png) |
+| Requirements                 | Output                         |
+| ---------------------------- | ------------------------------ |
+| ![task-1](images/task-1.jpg) | ![1](images/task-1-output.png) |
+| ![task-2](images/task-2.jpg) | ![2](images/task-2-output.png) |
+| ![task-4](images/task-4.jpg) | ![4](images/task-4-output.png) |
 
 ## Reading tasks
 
@@ -55,8 +55,8 @@ Assignment from betasquirrel
 
 ## Exercise-Quiz
 
-![screenshot-1](<requirment and output/readingtask-1.png>)
-![screenshot-2](<requirment and output/readingtask-2.png>)
+![screenshot-1](images/readingtask-1.png)
+![screenshot-2](images/readingtask-2.png)
 
 ## Completed tasks
 
