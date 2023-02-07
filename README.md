@@ -14,6 +14,7 @@ Assignment from betasquirrel
 - `cat` - Display contents of a file Ex: `cat README.md`
 - `rm` - The rm command is used to remove a file. EX: `rm <file name>`
 - `clear` - To clear the screen EX:`clear`
+- `mkdir` - To create new directory EX: `mkdir projects`
 
 
 ## Git commands
