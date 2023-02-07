@@ -24,11 +24,11 @@ Assignment from betasquirrel
 
 ## Task-1
 
-| Requirements                 | Output                         |
-| ---------------------------- | ------------------------------ |
-| ![task-1](images/task-1.jpg) | ![1](images/task-1-output.png) |
-| ![task-2](images/task-2.jpg) | ![2](images/task-2-output.png) |
-| ![task-4](images/task-4.jpg) | ![4](images/task-4-output.png) |
+| Requirements                  | Output                         |
+| ----------------------------  | ------------------------------ |
+| ![task-1] (images/task-1.jpg) | ![1](images/task-1-output.png) |
+| ![task-2] (images/task-2.jpg) | ![2](images/task-2-output.png) |
+| ![task-4] (images/task-4.jpg) | ![4](images/task-4-output.png) |
 
 ## Reading tasks
 
