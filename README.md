@@ -2,6 +2,11 @@
 
 Assignment from betasquirrel
 
+## profiles
+
+- [linkedln](https://www.linkedin.com/in/dilin-a-m-26722224a/)
+- [stack-overflow](https://stackoverflow.com/users/20275331/dilin-am?tab=profile)
+
 ## Demo-website
 
 - [Live](https://dilinamr.github.io/beta-squirrel/)
@@ -16,7 +21,6 @@ Assignment from betasquirrel
 - `clear` - To clear the screen EX:`clear`
 - `mkdir` - To create new directory EX: `mkdir projects`
 
-
 ## Git commands
 
 1. `git config` Config git user. EX: `git config --global user.name "dilin"`, `git config user.email "dilinam@gmail.com"`
@@ -27,6 +31,7 @@ Assignment from betasquirrel
 5. `git push` push your local commits to remote repo Ex: `git push origin main`
 6. `git reset` This command undoes all the commits after the specified commit and preserves the changes locally. EX:`git reset [commit]`
 7. `git pull` This command fetches and merges changes on the remote server to your working directory.
+
 ## Task-1
 
 | Requirements                 | Output                         |
