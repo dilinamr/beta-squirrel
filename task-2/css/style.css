@@ -82,3 +82,31 @@ h2 {
   margin: auto;
   border: 5px solid green;
 }
+@media screen and (max-width: 1100px) {
+  .l-box {
+    width: 100%;
+  }
+  .r-box {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  a {
+    display: none;
+  }
+  .l-box {
+    height: auto;
+    margin-bottom: 5px;
+  }
+  .r-box {
+    height: auto;
+  }
+  .main-container {
+    flex-direction: column;
+    height: auto;
+    padding: 5px;
+  }
+  .frist-container {
+    margin-bottom: 5px;
+  }
+}
