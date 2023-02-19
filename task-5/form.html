@@ -23,16 +23,139 @@
           <li><h4>EXAMS</h4></li>
         </ul>
       </div>
-      <div id="main">
-        <div id="form-h"><h4>STUDENTS REGISTRATION</h4></div>
-        <form action="#">
+      <div id="sub-main">
+        <div id="main">
+          <div id="form-h"><h4>STUDENTS REGISTRATION</h4></div>
+          <form action="#">
             <div class="form-sec-1">
-                <div class="form-sec-1-left">
-                    <div><label for="name"></label></div>
+              <div class="form-sec-1-left">
+                <div class="sec-1-name">
+                  <label for="name">First Name<span>*</span>:</label>
                 </div>
-                <div class="form-sec-1-right"></div>
+                <div>
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your first name"
+                  />
+                </div>
+              </div>
+              <div class="form-sec-1-right">
+                <div class="sec-1-last">
+                  <label for="lastname">Last Name<span>*</span>:</label>
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    id="lastname"
+                    placeholder="Enter your last name"
+                  />
+                </div>
+              </div>
             </div>
-        </form>
+            <div class="form-sec-2">
+              <div class="form-sec-2-left">
+                <div class="sec-2-mobile">
+                  <label for="mobile">Mobile<span>*</span>:</label>
+                </div>
+                <div>
+                  <input
+                    type="tel"
+                    id="mobile"
+                    placeholder="Enter your mobile number"
+                  />
+                </div>
+              </div>
+              <div class="form-sec-2-right">
+                <div class="sec-2-email">
+                  <label for="email">Email<span>*</span>:</label>
+                </div>
+                <div>
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="form-sec-3">
+              <div class="form-sec-3-left">
+                <div class="sec-3-branch">
+                  <label for="mobile">Branch<span>*</span>:</label>
+                </div>
+                <div>
+                  <select name="Branch" id="Branch">
+                    <option value="select" disabled selected>select</option>
+                    <option value="Mechanical">Mechanical</option>
+                    <option value="Civil">Civil</option>
+                    <option value="Aeronautical">Aeronautical</option>
+                    <option value="Computer science">Computer science</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-sec-3-right">
+                <div>
+                  <p>Do you need hostel facility</p>
+                </div>
+                <div>
+                  <input type="radio" id="yes" name="hostel" value="yes" />
+                  <label for="yes">Yes</label>
+                  <input type="radio" id="no" name="hostel" value="no" />
+                  <label for="no">No</label>
+                </div>
+              </div>
+            </div>
+            <div class="check-box">
+              <div><p>Choose additional subjects:</p></div>
+              <div>
+                <input type="checkbox" id="cyber" name="cyber" value="cyber" />
+                <label for="Cyber">Cyber security</label>
+                <input
+                  type="checkbox"
+                  id="Artificial Intelligence"
+                  name="Artificial Intelligence"
+                  value="Artificial Intelligence"
+                />
+                <label for="Artificial Intelligence">
+                  Artificial Intelligence</label
+                >
+                <input
+                  type="checkbox"
+                  id="Block chain"
+                  name="Block chain"
+                  value="Block chain"
+                />
+                <label for="Block chain"> Block chain</label>
+                <input type="checkbox" id="IOT" name="IOT" value="IOT" />
+                <label for="IOT">IOT</label>
+                <input
+                  type="checkbox"
+                  id="Robotics"
+                  name="Robotics"
+                  value="Robotics"
+                />
+                <label for="Robotics"> Robotics</label>
+              </div>
+            </div>
+            <div class="address">
+              <div><p>Permenent address<span>*</span>:</p></div>
+              <div>
+                <textarea
+                  name="address"
+                  id="address"
+                  cols="50"
+                  rows="10"
+                  placeholder="Enter your full address here"
+                ></textarea>
+              </div>
+            </div>
+            <div class="btn">
+              <input type="reset" value="Reset" />
+              <input type="submit" value="Submit" />
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   </body>

@@ -30,7 +30,7 @@ h2 {
 }
 /* navbar over */
 #main-container {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   border-top: 2px solid rgb(163, 163, 163);
   display: flex;
@@ -40,7 +40,7 @@ ul {
   padding-left: 8px;
 }
 #side-container {
-  width: 10%;
+  width: 170px;
   height: 100vh;
   border-right: 2px solid rgb(163, 163, 163);
   padding: 10px;
@@ -50,7 +50,92 @@ li {
   padding: 10px 0;
 }
 /* sidebar over */
+#sub-main {
+  width: 100%;
+}
 #main {
   padding-left: 50px;
   padding-top: 30px;
+  width: 87%;
+}
+.form-sec-1,
+.form-sec-2,
+.form-sec-3 {
+  display: flex;
+  justify-content: space-between;
+}
+.form-sec-3-right {
+  width: 450px;
+}
+.radio-1 {
+  display: flex;
+}
+span {
+  color: red;
+}
+.sec-1-name,
+.sec-1-last,
+.sec-2-mobile,
+.sec-2-email,
+.sec-3-branch {
+  margin-bottom: 10px;
+}
+input[type="text"] {
+  width: 450px;
+  height: 40px;
+}
+input[type="tel"] {
+  width: 450px;
+  height: 40px;
+}
+input[type="email"] {
+  width: 450px;
+  height: 40px;
+}
+.form-sec-2,
+.form-sec-3 {
+  margin-top: 20px;
+}
+.form-sec-1 {
+  margin-top: 35px;
+}
+select {
+  width: 450px;
+  height: 40px;
+}
+.address,
+.check-box {
+  margin-top: 25px;
+}
+.btn {
+  width: 100%;
+  margin-left: 70%;
+}
+input[type="reset"],
+input[type="submit"] {
+  height: 30px;
+  width: 130px;
+  border-radius: 15px;
+  border: 0px;
+}
+input[type="reset"] {
+  background-color: rgb(255, 114, 97);
+  margin-right: 20px;
+}
+input[type="submit"] {
+  background-color: rgb(59, 185, 137);
+}
+/* done */
+@media screen and (max-width: 1200px) {
+  .form-sec-1,
+  .form-sec-2,
+  .form-sec-3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .btn{
+    margin-left: 20%;
+    margin-top: 10px;
+  }
 }
