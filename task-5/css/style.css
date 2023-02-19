@@ -49,6 +49,10 @@ ul {
 li {
   padding: 10px 0;
 }
+h4,
+th {
+  color: rgb(87, 87, 87);
+}
 /* side-bar section over */
 #right-container {
   width: calc(100% - 11%);
