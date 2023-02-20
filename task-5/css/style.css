@@ -28,6 +28,9 @@ nav {
 h2 {
   padding-left: 5px;
 }
+.st{
+  text-decoration: underline;
+}
 /* navbar-bar section over*/
 #main-container {
   height: 100vh;

@@ -51,6 +51,7 @@ li {
 }
 h4 {
   font-weight: 100;
+  text-decoration: underline;
 }
 /* sidebar over */
 #sub-main {
