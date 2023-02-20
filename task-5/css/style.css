@@ -132,4 +132,11 @@ table {
   .right-head {
     padding-right: 8px;
   }
+  #nav-left {
+    width: 80%;
+  }
+  #nav-left,
+  #nav-right {
+    padding: 0 3px;
+  }
 }
