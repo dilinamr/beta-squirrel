@@ -253,4 +253,7 @@ input[type="submit"] {
   .form-sec-3-right {
     width: auto;
   }
+  #nav-left {
+    width: 70%;
+  }
 }
