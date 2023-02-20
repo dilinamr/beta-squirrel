@@ -105,6 +105,7 @@ input[type="email"] {
 select {
   width: 27.4vw;
   height: 40px;
+  color: #555555;
 }
 .address,
 .check-box {
@@ -249,7 +250,7 @@ input[type="submit"] {
   #nav-right {
     padding: 0 3px;
   }
-  .form-sec-3-right{
+  .form-sec-3-right {
     width: auto;
   }
 }
