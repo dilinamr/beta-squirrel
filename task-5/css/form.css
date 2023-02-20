@@ -123,18 +123,15 @@ input[type="submit"] {
   border: 0px;
   font-weight: 300;
   text-decoration: none;
-
 }
 input[type="reset"] {
   background-color: rgb(255, 114, 97);
   margin-right: 20px;
   color: #fff;
-  
 }
 input[type="submit"] {
   background-color: rgb(59, 185, 137);
   color: #fff;
-  
 }
 .check {
   width: 70%;
@@ -259,8 +256,8 @@ input[type="submit"] {
   #nav-left {
     width: 80%;
   }
-  select{
-    padding: 0%;
+  select {
+    width: 89.5vw;
+    height: 12vw;
   }
-
 }
