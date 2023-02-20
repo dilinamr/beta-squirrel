@@ -118,16 +118,15 @@ table {
 }
 @media screen and (max-width: 500px) {
   #side-container {
-    padding: 0px;
-    width: 25%;
+    display: none;
   }
   li {
     padding-right: 5px;
   }
   #right-container {
-    width: calc(100% - 29%);
+    width: 100%;
   }
   .right-head {
-    padding-right: 0px;
+    padding-right: 8px;
   }
 }
