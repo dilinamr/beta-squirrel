@@ -125,10 +125,12 @@ input[type="reset"] {
   background-color: rgb(255, 114, 97);
   margin-right: 20px;
   color: #fff;
+  font-family: sans-serif;
 }
 input[type="submit"] {
   background-color: rgb(59, 185, 137);
   color: #fff;
+  font-family: sans-serif;
 }
 .check {
   width: 70%;
@@ -242,5 +244,12 @@ input[type="submit"] {
   textarea {
     border-radius: 0;
     border: 1px solid rgb(163, 163, 163);
+  }
+  #nav-left,
+  #nav-right {
+    padding: 0 3px;
+  }
+  .form-sec-3-right{
+    width: auto;
   }
 }
