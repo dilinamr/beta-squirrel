@@ -259,5 +259,8 @@ input[type="submit"] {
   #nav-left {
     width: 80%;
   }
+  select{
+    padding: 0%;
+  }
 
 }
