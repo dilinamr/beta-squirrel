@@ -53,6 +53,9 @@ h4,
 th {
   color: rgb(87, 87, 87);
 }
+h4{
+  font-weight: 100;
+}
 /* side-bar section over */
 #right-container {
   width: calc(100% - 11%);

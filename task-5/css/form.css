@@ -49,6 +49,9 @@ ul {
 li {
   padding: 10px 0;
 }
+h4 {
+  font-weight: 100;
+}
 /* sidebar over */
 #sub-main {
   width: calc(100% - 200px);
