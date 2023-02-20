@@ -122,17 +122,19 @@ input[type="submit"] {
   border-radius: 20px;
   border: 0px;
   font-weight: 100;
+  text-decoration: none;
+
 }
 input[type="reset"] {
   background-color: rgb(255, 114, 97);
   margin-right: 20px;
   color: #fff;
-  font-family: sans-serif;
+  
 }
 input[type="submit"] {
   background-color: rgb(59, 185, 137);
   color: #fff;
-  font-family: sans-serif;
+  
 }
 .check {
   width: 70%;
