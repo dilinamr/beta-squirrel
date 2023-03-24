@@ -14,26 +14,31 @@ function calculate() {
   let operand1 = parseFloat(operands[0]);
   let operand2 = parseFloat(operands[1]);
   let result;
-  switch (operation) {
-    case "+":
-      result = operand1 + operand2;
-      break;
-    case "-":
-      result = operand1 - operand2;
-      break;
-    case "*":
-      result = operand1 * operand2;
-      break;
-    case "/":
-      result = operand1 / operand2;
-      break;
-    case "%":
-      result = operand1 * (operand2 / 100);
-      break;
+  if (operands.length == 2) {
+    switch (operation) {
+      case "+":
+        result = operand1 + operand2;
+        break;
+      case "-":
+        result = operand1 - operand2;
+        break;
+      case "*":
+        result = operand1 * operand2;
+        break;
+      case "/":
+        result = operand1 / operand2;
+        break;
+      case "%":
+        result = operand1 * (operand2 / 100);
+        break;
+    }
+    input = result.toString();
+    document.getElementById("result").value = input;
+  } else {
+    document.getElementById("result").value = "Error";
   }
-  input = result.toString();
-  document.getElementById("result").value = input;
 }
+
 function clearResult() {
   input = "";
   document.getElementById("result").value = input;
