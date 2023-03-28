@@ -62,3 +62,8 @@ form input.operatorac {
 i {
   margin-right: 10px;
 }
+@media screen and (max-width: 500px) {
+  form .display input {
+   font-size: 25px;
+  }
+}
