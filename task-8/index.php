@@ -7,7 +7,6 @@
 </head>
 
 <body>
-	<h1>Form Validation Example</h1>
 	<?php
 	// define variables and set to empty values
 	$nameErr = $emailErr = $last_nameErr = $mobileErr = $branchErr = $hostelErr = "";
